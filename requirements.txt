@@ -1,0 +1,7 @@
+groq
+streamlit
+transformers
+torch
+python_dotenv
+langchain_core
+langchain_community
