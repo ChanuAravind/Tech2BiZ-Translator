@@ -2,6 +2,7 @@ import streamlit as st
 from chat_groq import chat_groq
 from summary import summary_groq
 
+st.set_page_config(page_title="Tech2Biz Translator", page_icon=":robot_face:")
 st.title("Tech2Biz Translator")
 
 if "history" not in st.session_state:
